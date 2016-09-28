@@ -1,7 +1,0 @@
-﻿import { bootstrap }    from "angular2/platform/browser";
-import { ModuleRechercheEcritureViewModel } from "./ViewModel/Ecriture/ModuleRechercheEcritureViewModel";
-import { ListEcritureViewModel } from "./ViewModel/Ecriture/ListEcritureViewModel";
-import { RechercheEcritureViewModel } from "./ViewModel/Ecriture/RechercheEcritureViewModel";
-
-
-bootstrap(ModuleRechercheEcritureViewModel);

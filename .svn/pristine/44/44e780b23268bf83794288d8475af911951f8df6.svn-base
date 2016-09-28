@@ -1,5 +1,0 @@
-"use strict";
-var browser_1 = require("angular2/platform/browser");
-var ModuleRechercheEcritureViewModel_1 = require("./ViewModel/Ecriture/ModuleRechercheEcritureViewModel");
-browser_1.bootstrap(ModuleRechercheEcritureViewModel_1.ModuleRechercheEcritureViewModel);
-//# sourceMappingURL=main.js.map
