@@ -1,5 +1,5 @@
-﻿using Demo.DomainLibrary.Metier.Ecriture;
-using Demo.DTOLibrary.Entities.Ecriture;
+﻿using WS_Hotline.DomainLibrary.Metier.Ecriture;
+using WS_Hotline.DTOLibrary.Entities.Ecriture;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace Demo.WPF.ViewModel.Ecriture
+namespace WS_Hotline.WPF.ViewModel.Ecriture
 {
     /// <summary>
     /// ViewModel gerant les recherche sur la liste des ecritureDTO

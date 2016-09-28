@@ -1,4 +1,4 @@
-﻿namespace Demo.Framework.Domain.Command
+﻿namespace WS_Hotline.Framework.Domain.Command
 {
     /// <summary>
     /// Interface to identify Message event

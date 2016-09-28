@@ -10,7 +10,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DTOLibrary.Entities.<#= pNomObject #>
+namespace WS_Hotline.DTOLibrary.Entities.<#= pNomObject #>
 {
     /// <summary>
     /// Classe de critère pour <#= pNomObject #>DTO

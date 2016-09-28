@@ -20,6 +20,8 @@ C:\Tortoise Local\WS_Hotline\WS_Hotline.SiteWeb\bin\Microsoft.Practices.Unity.xm
 C:\Tortoise Local\WS_Hotline\WS_Hotline.SiteWeb\bin\UnityConfiguration.xml
 C:\Tortoise Local\WS_Hotline\WS_Hotline.SiteWeb\bin\GalaSoft.MvvmLight.pdb
 C:\Tortoise Local\WS_Hotline\WS_Hotline.SiteWeb\bin\GalaSoft.MvvmLight.xml
+C:\Tortoise Local\WS_Hotline\WS_Hotline.SiteWeb\bin\fr\EntityFramework.resources.dll
+C:\Tortoise Local\WS_Hotline\WS_Hotline.SiteWeb\bin\fr\EntityFramework.SqlServer.resources.dll
 C:\Tortoise Local\WS_Hotline\WS_Hotline.SiteWeb\obj\Debug\SiteWeb.csprojResolveAssemblyReference.cache
 C:\Tortoise Local\WS_Hotline\WS_Hotline.SiteWeb\obj\Debug\WS_Hotline.SiteWeb.Ressources.Resource.resources
 C:\Tortoise Local\WS_Hotline\WS_Hotline.SiteWeb\obj\Debug\WS_Hotline.SiteWeb.Ressources.Resource.en.resources

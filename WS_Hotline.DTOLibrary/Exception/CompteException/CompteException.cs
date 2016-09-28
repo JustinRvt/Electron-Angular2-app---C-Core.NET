@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Runtime.Serialization;
-using Demo.DTOLibrary.Entities.Compte;
+using WS_Hotline.DTOLibrary.Entities.Compte;
 
-namespace Demo.DTOLibrary.Exception.CompteException
+namespace WS_Hotline.DTOLibrary.Exception.CompteException
 {
     /// <summary>
     /// Exeption sur le Type Compte

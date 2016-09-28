@@ -1,4 +1,4 @@
-﻿using Demo.Framework.Domain.Command;
+﻿using WS_Hotline.Framework.Domain.Command;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DTOLibrary.Business.Exception
+namespace WS_Hotline.DTOLibrary.Business.Exception
 {
     /// <summary>
     /// Classe DTO permettant de gérer Exception

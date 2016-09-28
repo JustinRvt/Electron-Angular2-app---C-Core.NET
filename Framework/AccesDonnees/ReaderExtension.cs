@@ -1,6 +1,6 @@
 ﻿using System.Data.SqlClient;
 
-namespace Demo.Framework.AccesDonnees
+namespace WS_Hotline.Framework.AccesDonnees
 {
    public static class ReaderExtension
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Demo.DTOLibrary.Entities.Dossier;
-using Demo.DTOLibrary.Exception.DossierException;
-using Demo.DomainLibrary.Metier.Dossier;
-using Demo.DTOLibrary.Exception.GeneriqueException;
+using WS_Hotline.DTOLibrary.Entities.Dossier;
+using WS_Hotline.DTOLibrary.Exception.DossierException;
+using WS_Hotline.DomainLibrary.Metier.Dossier;
+using WS_Hotline.DTOLibrary.Exception.GeneriqueException;
 
 namespace UnitTestDomain.Metier.Dossier
 {

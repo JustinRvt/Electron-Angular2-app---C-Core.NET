@@ -2,8 +2,8 @@
 using System.Text;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Demo.DataAccessLayer.Entities.Dossier;
-using Demo.DTOLibrary.Entities.Dossier;
+using WS_Hotline.DataAccessLayer.Entities.Dossier;
+using WS_Hotline.DTOLibrary.Entities.Dossier;
 
 namespace UnitTestDAL.Entities.Dossier
 {
@@ -23,7 +23,7 @@ namespace UnitTestDAL.Entities.Dossier
         public void ConfigurationDossierDALTest()
         {
             // yl - Creation du context
-            var lContext = new Demo.DataAccessLayer.BDD.DemoDbContext();
+            var lContext = new WS_Hotline.DataAccessLayer.BDD.DemoDbContext();
             // yl -  On oublie volontairement de mettre le context
             // yl - Creation de l'object DAL
             DossierDAL lService = new DossierDAL(lContext);

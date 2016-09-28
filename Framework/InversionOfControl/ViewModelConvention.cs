@@ -2,7 +2,7 @@
 using GalaSoft.MvvmLight;
 using UnityConfiguration;
 
-namespace Demo.Framework.InversionOfControl
+namespace WS_Hotline.Framework.InversionOfControl
 {
     public class ViewModelConvention : IAssemblyScannerConvention
     {

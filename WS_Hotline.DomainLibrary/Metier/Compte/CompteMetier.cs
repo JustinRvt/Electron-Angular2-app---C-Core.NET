@@ -1,13 +1,13 @@
-﻿using Demo.DataAccessLayer.Entities.Compte;
-using Demo.DTOLibrary.Entities.Compte;
-using Demo.DTOLibrary.Exception.CompteException;
+﻿using WS_Hotline.DataAccessLayer.Entities.Compte;
+using WS_Hotline.DTOLibrary.Entities.Compte;
+using WS_Hotline.DTOLibrary.Exception.CompteException;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DomainLibrary.Metier.Compte
+namespace WS_Hotline.DomainLibrary.Metier.Compte
 {
     /// <summary>
     /// Classe metier de Compte

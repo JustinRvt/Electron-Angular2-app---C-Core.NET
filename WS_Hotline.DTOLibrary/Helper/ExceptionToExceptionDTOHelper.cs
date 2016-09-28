@@ -1,11 +1,11 @@
-﻿using Demo.DTOLibrary.Business.Exception;
+﻿using WS_Hotline.DTOLibrary.Business.Exception;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DTOLibrary.Helper
+namespace WS_Hotline.DTOLibrary.Helper
 {
     public class ExceptionToExceptionDTOHelper
     {

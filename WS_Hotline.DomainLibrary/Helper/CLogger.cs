@@ -1,5 +1,5 @@
 ﻿using NLog;
-using Demo.DTOLibrary.Info;
+using WS_Hotline.DTOLibrary.Info;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DomainLibrary.Helper
+namespace WS_Hotline.DomainLibrary.Helper
 {
     /// <summary>
     /// Classe static pour ecrire des logs

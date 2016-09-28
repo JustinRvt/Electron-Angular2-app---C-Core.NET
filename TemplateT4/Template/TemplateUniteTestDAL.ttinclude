@@ -7,8 +7,8 @@ using System;
 using System.Text;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Demo.DataAccessLayer.Entities.<#= pNomObject #>;
-using Demo.DTOLibrary.Entities.<#= pNomObject #>;
+using WS_Hotline.DataAccessLayer.Entities.<#= pNomObject #>;
+using WS_Hotline.DTOLibrary.Entities.<#= pNomObject #>;
 
 namespace UnitTestDAL.Entities.<#= pNomObject #>
 {
@@ -28,7 +28,7 @@ namespace UnitTestDAL.Entities.<#= pNomObject #>
         public void Configuration<#= pNomObject #>DALTest()
         {
             // <#= Environment.UserName.Substring(0,2) #> - Creation du context
-            var lContext = new Demo.DataAccessLayer.BDD.<#= pDBContext #>();
+            var lContext = new WS_Hotline.DataAccessLayer.BDD.<#= pDBContext #>();
             // <#= Environment.UserName.Substring(0,2) #> -  On oublie volontairement de mettre le context
             // <#= Environment.UserName.Substring(0,2) #> - Creation de l'object DAL
             <#= pNomObject #>DAL lService = new <#= pNomObject #>DAL(lContext);

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.Framework.Web
+namespace WS_Hotline.Framework.Web
 {
     internal sealed class AliasedPropertyDescriptor : PropertyDescriptor
     {

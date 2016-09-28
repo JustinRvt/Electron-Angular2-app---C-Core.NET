@@ -4,7 +4,7 @@ using System.Linq;
 using Microsoft.Practices.Unity;
 using UnityConfiguration;
 
-namespace Demo.Framework.InversionOfControl
+namespace WS_Hotline.Framework.InversionOfControl
 {
     public class MultipleImplementationConvention : IAssemblyScannerConvention, ILifetimePolicyExpression
     {

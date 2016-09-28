@@ -1,5 +1,5 @@
-﻿using Demo.DTOLibrary.Helper;
-using Demo.Framework.AccesDonnees;
+﻿using WS_Hotline.DTOLibrary.Helper;
+using WS_Hotline.Framework.AccesDonnees;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,13 +8,13 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DTOLibrary
+namespace WS_Hotline.DTOLibrary
 {
     /// Classe de base pour les critères DTO
     /// </summary>
     /// <remarks>Version 1.0.1</remarks>
     [DataContract]
-    public class CritereBaseDTO<DTOType> : Demo.Framework.Domain.Query.SearchCriteria<DTOType>, IBaseDTO
+    public class CritereBaseDTO<DTOType> : WS_Hotline.Framework.Domain.Query.SearchCriteria<DTOType>, IBaseDTO
         where DTOType : IBaseDTO, new()
     {
         #region CSTR

@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Demo.SiteWeb
+namespace WS_Hotline.SiteWeb
 {
     public class BundleConfig
     {

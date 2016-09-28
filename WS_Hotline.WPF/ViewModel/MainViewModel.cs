@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using GalaSoft.MvvmLight;
 using System.Collections.ObjectModel;
-using Demo.DTOLibrary.Entities.Ecriture;
+using WS_Hotline.DTOLibrary.Entities.Ecriture;
 using System.Windows.Input;
 using GalaSoft.MvvmLight.CommandWpf;
 using GalaSoft.MvvmLight.Messaging;
-using Demo.DTOLibrary.Enum.Module;
+using WS_Hotline.DTOLibrary.Enum.Module;
 
-namespace Demo.WPF.ViewModel
+namespace WS_Hotline.WPF.ViewModel
 {
     /// <summary>
     /// ViewModel De l'interface de base

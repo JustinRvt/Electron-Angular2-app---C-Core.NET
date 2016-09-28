@@ -3,9 +3,9 @@
 
   void GenerateDAL(string pNomObject,string pDBContext){			
 		#>
-using Demo.DataAccessLayer.BDD;
-using Demo.DTOLibrary.Entities.<#= pNomObject #>;
-using Demo.Framework.AccesDonnees;
+using WS_Hotline.DataAccessLayer.BDD;
+using WS_Hotline.DTOLibrary.Entities.<#= pNomObject #>;
+using WS_Hotline.Framework.AccesDonnees;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 using System.Data.Entity;
 using System.Linq.Expressions;
 
-namespace Demo.DataAccessLayer.Entities.<#= pNomObject #>
+namespace WS_Hotline.DataAccessLayer.Entities.<#= pNomObject #>
 {
     /// <summary>
     /// Classe data acess layer de <#= pNomObject #>

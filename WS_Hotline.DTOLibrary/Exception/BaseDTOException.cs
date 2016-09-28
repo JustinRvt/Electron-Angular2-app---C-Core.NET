@@ -1,4 +1,4 @@
-﻿using Demo.Framework.AccesDonnees;
+﻿using WS_Hotline.Framework.AccesDonnees;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DTOLibrary.Exception
+namespace WS_Hotline.DTOLibrary.Exception
 {
     /// <summary>
     /// Exception de type DTO

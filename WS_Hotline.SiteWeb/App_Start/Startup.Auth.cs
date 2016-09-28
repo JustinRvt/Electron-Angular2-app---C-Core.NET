@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using Demo.SiteWeb.Models;
+using WS_Hotline.SiteWeb.Models;
 
-namespace Demo.SiteWeb
+namespace WS_Hotline.SiteWeb
 {
     public partial class Startup
     {

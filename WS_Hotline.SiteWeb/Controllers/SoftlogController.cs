@@ -1,12 +1,12 @@
-﻿using Demo.DomainLibrary.Metier.Softlog;
-using Demo.DTOLibrary.Entities.Softlog;
+﻿using WS_Hotline.DomainLibrary.Metier.Softlog;
+using WS_Hotline.DTOLibrary.Entities.Softlog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Demo.SiteWeb.Controllers
+namespace WS_Hotline.SiteWeb.Controllers
 {
     /// <summary>
     /// Controlleur de Softlog

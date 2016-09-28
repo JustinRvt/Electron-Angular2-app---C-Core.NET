@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DTOLibrary.Entities.Compte
+namespace WS_Hotline.DTOLibrary.Entities.Compte
 {
     /// <summary>
     /// Classe de critère pour CompteDTO

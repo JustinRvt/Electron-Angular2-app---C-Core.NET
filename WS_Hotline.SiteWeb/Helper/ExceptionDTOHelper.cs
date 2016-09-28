@@ -1,11 +1,11 @@
-﻿using Demo.DTOLibrary.Business.Exception;
-using Demo.DTOLibrary.Info;
+﻿using WS_Hotline.DTOLibrary.Business.Exception;
+using WS_Hotline.DTOLibrary.Info;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Demo.SiteWeb.Helper
+namespace WS_Hotline.SiteWeb.Helper
 {
     /// <summary>
     /// Helper permetant de generer des ExceptionDTO a partir d'Exception

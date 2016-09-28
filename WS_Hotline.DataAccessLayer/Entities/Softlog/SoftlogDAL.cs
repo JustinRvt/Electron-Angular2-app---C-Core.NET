@@ -1,6 +1,6 @@
-﻿using Demo.DataAccessLayer.BDD;
-using Demo.DTOLibrary.Entities.Softlog;
-using Demo.Framework.AccesDonnees;
+﻿using WS_Hotline.DataAccessLayer.BDD;
+using WS_Hotline.DTOLibrary.Entities.Softlog;
+using WS_Hotline.Framework.AccesDonnees;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Data.Entity;
 using System.Linq.Expressions;
 
-namespace Demo.DataAccessLayer.Entities.Softlog
+namespace WS_Hotline.DataAccessLayer.Entities.Softlog
 {
     /// <summary>
     /// Classe data acess layer de Softlog

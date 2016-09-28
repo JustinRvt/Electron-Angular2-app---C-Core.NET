@@ -1,8 +1,8 @@
-﻿using Demo.DomainLibrary;
-using Demo.DTOLibrary.Info;
-using Demo.DTOLibrary.Methodes;
-using Demo.Framework.AccesDonnees;
-using Demo.SiteWeb.Ressources;
+﻿using WS_Hotline.DomainLibrary;
+using WS_Hotline.DTOLibrary.Info;
+using WS_Hotline.DTOLibrary.Methodes;
+using WS_Hotline.Framework.AccesDonnees;
+using WS_Hotline.SiteWeb.Ressources;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Demo.SiteWeb.Controllers.Base
+namespace WS_Hotline.SiteWeb.Controllers.Base
 {
     /// <summary>
     /// Contrôleur de base qui implémente toutes les fonctions pour accéder au metier

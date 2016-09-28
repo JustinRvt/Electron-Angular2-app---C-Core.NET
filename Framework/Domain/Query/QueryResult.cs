@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Demo.Framework.Domain.Query
+namespace WS_Hotline.Framework.Domain.Query
 {
     /// <summary>
     /// Template query result from database

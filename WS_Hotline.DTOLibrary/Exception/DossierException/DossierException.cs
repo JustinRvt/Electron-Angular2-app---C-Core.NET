@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Runtime.Serialization;
-using Demo.DTOLibrary.Entities.Dossier;
+using WS_Hotline.DTOLibrary.Entities.Dossier;
 
-namespace Demo.DTOLibrary.Exception.DossierException
+namespace WS_Hotline.DTOLibrary.Exception.DossierException
 {
     /// <summary>
     /// Exeption sur le Type Dossier

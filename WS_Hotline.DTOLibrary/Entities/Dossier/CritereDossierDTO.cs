@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DTOLibrary.Entities.Dossier
+namespace WS_Hotline.DTOLibrary.Entities.Dossier
 {
     /// <summary>
     /// Classe de critère pour DossierDTO

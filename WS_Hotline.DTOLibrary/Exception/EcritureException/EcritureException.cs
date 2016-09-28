@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Runtime.Serialization;
-using Demo.DTOLibrary.Entities.Ecriture;
+using WS_Hotline.DTOLibrary.Entities.Ecriture;
 
-namespace Demo.DTOLibrary.Exception.EcritureException
+namespace WS_Hotline.DTOLibrary.Exception.EcritureException
 {
     /// <summary>
     /// Exeption sur le Type Ecriture

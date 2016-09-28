@@ -1,7 +1,7 @@
-﻿using Demo.Framework.AccesDonnees;
+﻿using WS_Hotline.Framework.AccesDonnees;
 using UnityConfiguration;
 
-namespace Demo.Framework.InversionOfControl
+namespace WS_Hotline.Framework.InversionOfControl
 {
     public class ConventionRegistry : UnityRegistry
     {

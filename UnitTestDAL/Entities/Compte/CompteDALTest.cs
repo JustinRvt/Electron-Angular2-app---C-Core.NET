@@ -2,8 +2,8 @@
 using System.Text;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Demo.DataAccessLayer.Entities.Compte;
-using Demo.DTOLibrary.Entities.Compte;
+using WS_Hotline.DataAccessLayer.Entities.Compte;
+using WS_Hotline.DTOLibrary.Entities.Compte;
 
 namespace UnitTestDAL.Entities.Compte
 {
@@ -23,7 +23,7 @@ namespace UnitTestDAL.Entities.Compte
         public void ConfigurationCompteDALTest()
         {
             // yl - Creation du context
-            var lContext = new Demo.DataAccessLayer.BDD.DemoDbContext();
+            var lContext = new WS_Hotline.DataAccessLayer.BDD.DemoDbContext();
             // yl -  On oublie volontairement de mettre le context
             // yl - Creation de l'object DAL
             CompteDAL lService = new CompteDAL(lContext);

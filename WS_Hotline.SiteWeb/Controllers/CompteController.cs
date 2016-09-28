@@ -1,12 +1,12 @@
-﻿using Demo.DomainLibrary.Metier.Compte;
-using Demo.DTOLibrary.Entities.Compte;
+﻿using WS_Hotline.DomainLibrary.Metier.Compte;
+using WS_Hotline.DTOLibrary.Entities.Compte;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Demo.SiteWeb.Controllers
+namespace WS_Hotline.SiteWeb.Controllers
 {
     /// <summary>
     /// Controlleur de Compte

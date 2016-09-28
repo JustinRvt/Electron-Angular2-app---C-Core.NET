@@ -1,4 +1,4 @@
-﻿using Demo.DTOLibrary.Enum.Module;
+﻿using WS_Hotline.DTOLibrary.Enum.Module;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Data;
 
-namespace Demo.WPF.Converter
+namespace WS_Hotline.WPF.Converter
 {
     public class ConvertEModuleToView : IValueConverter
     {

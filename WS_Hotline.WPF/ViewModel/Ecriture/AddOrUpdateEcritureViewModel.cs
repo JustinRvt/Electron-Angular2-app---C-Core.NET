@@ -1,10 +1,10 @@
-﻿using Demo.DomainLibrary.Metier.Compte;
-using Demo.DomainLibrary.Metier.Dossier;
-using Demo.DomainLibrary.Metier.Ecriture;
-using Demo.DTOLibrary.Business.Navigation;
-using Demo.DTOLibrary.Entities.Compte;
-using Demo.DTOLibrary.Entities.Dossier;
-using Demo.DTOLibrary.Entities.Ecriture;
+﻿using WS_Hotline.DomainLibrary.Metier.Compte;
+using WS_Hotline.DomainLibrary.Metier.Dossier;
+using WS_Hotline.DomainLibrary.Metier.Ecriture;
+using WS_Hotline.DTOLibrary.Business.Navigation;
+using WS_Hotline.DTOLibrary.Entities.Compte;
+using WS_Hotline.DTOLibrary.Entities.Dossier;
+using WS_Hotline.DTOLibrary.Entities.Ecriture;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
@@ -16,7 +16,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace Demo.WPF.ViewModel.Ecriture
+namespace WS_Hotline.WPF.ViewModel.Ecriture
 {
     public class AddOrUpdateEcritureViewModel : ViewModelBase
     {

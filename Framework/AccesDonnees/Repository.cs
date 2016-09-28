@@ -4,10 +4,10 @@ using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Transactions;
-using Demo.Framework.Domain.Command;
-using Demo.Framework.Domain.Query;
+using WS_Hotline.Framework.Domain.Command;
+using WS_Hotline.Framework.Domain.Query;
 
-namespace Demo.Framework.AccesDonnees
+namespace WS_Hotline.Framework.AccesDonnees
 {
     public static class SearchCriteriaExtensions
     {

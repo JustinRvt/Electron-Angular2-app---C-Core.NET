@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DTOLibrary.Entities.Ecriture
+namespace WS_Hotline.DTOLibrary.Entities.Ecriture
 {
     /// <summary>
     /// Classe de critère pour EcritureDTO

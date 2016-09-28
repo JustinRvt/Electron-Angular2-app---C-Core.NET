@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Runtime.Serialization;
-using Demo.DTOLibrary.Entities.Softlog;
+using WS_Hotline.DTOLibrary.Entities.Softlog;
 
-namespace Demo.DTOLibrary.Exception.SoftlogException
+namespace WS_Hotline.DTOLibrary.Exception.SoftlogException
 {
     /// <summary>
     /// Exeption sur le Type Softlog

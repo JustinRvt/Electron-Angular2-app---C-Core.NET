@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Mvc;
 
-namespace Demo.Framework.Web
+namespace WS_Hotline.Framework.Web
 {
     public class ModelBinder : DefaultModelBinder
     {

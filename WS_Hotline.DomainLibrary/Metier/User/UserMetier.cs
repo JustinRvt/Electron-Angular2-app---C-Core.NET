@@ -1,13 +1,13 @@
-﻿using Demo.DataAccessLayer.Entities.User;
-using Demo.DTOLibrary.Entities.User;
-using Demo.DTOLibrary.Exception.UserException;
+﻿using WS_Hotline.DataAccessLayer.Entities.User;
+using WS_Hotline.DTOLibrary.Entities.User;
+using WS_Hotline.DTOLibrary.Exception.UserException;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DomainLibrary.Metier.User
+namespace WS_Hotline.DomainLibrary.Metier.User
 {
     /// <summary>
     /// Classe metier de User

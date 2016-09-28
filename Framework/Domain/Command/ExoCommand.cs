@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Demo.Framework.Domain.Command
+namespace WS_Hotline.Framework.Domain.Command
 {
     public abstract class ExoCommand : INotifyPropertyChanged
     {

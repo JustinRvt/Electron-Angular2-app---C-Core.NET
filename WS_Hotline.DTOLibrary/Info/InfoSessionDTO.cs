@@ -1,4 +1,4 @@
-﻿using Demo.Framework.Domain.Command;
+﻿using WS_Hotline.Framework.Domain.Command;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -7,7 +7,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DTOLibrary.Info
+namespace WS_Hotline.DTOLibrary.Info
 {
     /// <summary>
     /// Classe DTO permettant de gérer InfoSession

@@ -1,11 +1,11 @@
-﻿using Demo.DTOLibrary.Business.Ressource;
-using Demo.DTOLibrary.Info;
+﻿using WS_Hotline.DTOLibrary.Business.Ressource;
+using WS_Hotline.DTOLibrary.Info;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Demo.SiteWeb.Helper
+namespace WS_Hotline.SiteWeb.Helper
 {
     /// <summary>
     /// Helper de gestion de resssource
@@ -19,7 +19,7 @@ namespace Demo.SiteWeb.Helper
         /// Object permettant de recuperer les resources
         /// </summary>
         /// <remarks>LOUIS Yoann 19/02/2016</remarks>
-        private static System.Resources.ResourceManager _ResourceManager = new global::System.Resources.ResourceManager("Demo.SiteWeb.Ressources.Resource", typeof(SiteWeb.Ressources.Resource).Assembly);
+        private static System.Resources.ResourceManager _ResourceManager = new global::System.Resources.ResourceManager("WS_Hotline.SiteWeb.Ressources.Resource", typeof(SiteWeb.Ressources.Resource).Assembly);
 
         #endregion
 

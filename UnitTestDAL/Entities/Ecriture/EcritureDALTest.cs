@@ -2,8 +2,8 @@
 using System.Text;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Demo.DataAccessLayer.Entities.Ecriture;
-using Demo.DTOLibrary.Entities.Ecriture;
+using WS_Hotline.DataAccessLayer.Entities.Ecriture;
+using WS_Hotline.DTOLibrary.Entities.Ecriture;
 
 namespace UnitTestDAL.Entities.Ecriture
 {
@@ -23,7 +23,7 @@ namespace UnitTestDAL.Entities.Ecriture
         public void ConfigurationEcritureDALTest()
         {
             // yl - Creation du context
-            var lContext = new Demo.DataAccessLayer.BDD.DemoDbContext();
+            var lContext = new WS_Hotline.DataAccessLayer.BDD.DemoDbContext();
             // yl -  On oublie volontairement de mettre le context
             // yl - Creation de l'object DAL
             EcritureDAL lService = new EcritureDAL(lContext);

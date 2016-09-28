@@ -2,7 +2,7 @@
 using Microsoft.Practices.Unity;
 using UnityConfiguration;
 
-namespace Demo.Framework.InversionOfControl
+namespace WS_Hotline.Framework.InversionOfControl
 {
     /// <summary>
     /// Container IoC

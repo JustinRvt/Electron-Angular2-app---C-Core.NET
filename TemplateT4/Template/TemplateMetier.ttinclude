@@ -2,16 +2,16 @@
 <#+ 
   void GenerateMetier(string pNomObject){			
 		#>
-using Demo.DataAccessLayer.Entities.<#= pNomObject #>;
-using Demo.DTOLibrary.Entities.<#= pNomObject #>;
-using Demo.DTOLibrary.Exception.<#= pNomObject #>Exception;
+using WS_Hotline.DataAccessLayer.Entities.<#= pNomObject #>;
+using WS_Hotline.DTOLibrary.Entities.<#= pNomObject #>;
+using WS_Hotline.DTOLibrary.Exception.<#= pNomObject #>Exception;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DomainLibrary.Metier.<#= pNomObject #>
+namespace WS_Hotline.DomainLibrary.Metier.<#= pNomObject #>
 {
     /// <summary>
     /// Classe metier de <#= pNomObject #>

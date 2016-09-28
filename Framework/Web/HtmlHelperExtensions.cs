@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Demo.Framework.Web
+namespace WS_Hotline.Framework.Web
 {
     public static class HtmlHelperExtensions
     {

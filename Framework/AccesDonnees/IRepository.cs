@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Demo.Framework.Domain.Query;
+using WS_Hotline.Framework.Domain.Query;
 
-namespace Demo.Framework.AccesDonnees
+namespace WS_Hotline.Framework.AccesDonnees
 {
     /// <summary>
     /// Interface for repostirory template

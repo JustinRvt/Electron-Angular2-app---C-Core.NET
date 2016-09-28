@@ -5,10 +5,10 @@
 		#>
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Demo.DTOLibrary.Entities.<#= pNomObject #>;
-using Demo.DTOLibrary.Exception.<#= pNomObject #>Exception;
-using Demo.DomainLibrary.Metier.<#= pNomObject #>;
-using Demo.DTOLibrary.Exception.GeneriqueException;
+using WS_Hotline.DTOLibrary.Entities.<#= pNomObject #>;
+using WS_Hotline.DTOLibrary.Exception.<#= pNomObject #>Exception;
+using WS_Hotline.DomainLibrary.Metier.<#= pNomObject #>;
+using WS_Hotline.DTOLibrary.Exception.GeneriqueException;
 
 namespace UnitTestDomain.Metier.<#= pNomObject #>
 {

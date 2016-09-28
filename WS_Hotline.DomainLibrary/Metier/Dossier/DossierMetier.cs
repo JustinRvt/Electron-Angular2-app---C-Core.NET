@@ -1,13 +1,13 @@
-﻿using Demo.DataAccessLayer.Entities.Dossier;
-using Demo.DTOLibrary.Entities.Dossier;
-using Demo.DTOLibrary.Exception.DossierException;
+﻿using WS_Hotline.DataAccessLayer.Entities.Dossier;
+using WS_Hotline.DTOLibrary.Entities.Dossier;
+using WS_Hotline.DTOLibrary.Exception.DossierException;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DomainLibrary.Metier.Dossier
+namespace WS_Hotline.DomainLibrary.Metier.Dossier
 {
     /// <summary>
     /// Classe metier de Dossier

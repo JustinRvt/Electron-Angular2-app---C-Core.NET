@@ -5,12 +5,12 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Xml.Serialization;
-using Demo.Framework.AccesDonnees;
-using Demo.Framework.Domain.Command;
+using WS_Hotline.Framework.AccesDonnees;
+using WS_Hotline.Framework.Domain.Command;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Demo.Framework.Domain.Command
+namespace WS_Hotline.Framework.Domain.Command
 {
     /// <summary>
     /// Il s'agit de la classe de base pour tous les DTO.

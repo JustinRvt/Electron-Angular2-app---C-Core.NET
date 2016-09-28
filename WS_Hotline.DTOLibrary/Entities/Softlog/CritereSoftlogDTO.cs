@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DTOLibrary.Entities.Softlog
+namespace WS_Hotline.DTOLibrary.Entities.Softlog
 {
     /// <summary>
     /// Classe de critère pour SoftlogDTO

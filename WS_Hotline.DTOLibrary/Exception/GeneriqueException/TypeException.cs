@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DTOLibrary.Exception.GeneriqueException
+namespace WS_Hotline.DTOLibrary.Exception.GeneriqueException
 {
     /// <summary>
     /// Exeption sur le Type, probléme quand l'object passer ne correspond pas au type attendu

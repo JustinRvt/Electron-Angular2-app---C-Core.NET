@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityConfiguration;
 
-namespace Demo.Framework.InversionOfControl
+namespace WS_Hotline.Framework.InversionOfControl
 {   
     /// <summary>
     /// Define Interface convention to unity Demon

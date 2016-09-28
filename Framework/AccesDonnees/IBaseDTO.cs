@@ -5,7 +5,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace Demo.Framework.AccesDonnees
+namespace WS_Hotline.Framework.AccesDonnees
 {
     /// <summary>
     /// Interface de base pour les DTO

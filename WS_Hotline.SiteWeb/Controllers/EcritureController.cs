@@ -1,12 +1,12 @@
-﻿using Demo.DomainLibrary.Metier.Ecriture;
-using Demo.DTOLibrary.Entities.Ecriture;
+﻿using WS_Hotline.DomainLibrary.Metier.Ecriture;
+using WS_Hotline.DTOLibrary.Entities.Ecriture;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Demo.SiteWeb.Controllers
+namespace WS_Hotline.SiteWeb.Controllers
 {
     /// <summary>
     /// Controlleur de Ecriture

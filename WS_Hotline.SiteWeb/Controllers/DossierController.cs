@@ -1,12 +1,12 @@
-﻿using Demo.DomainLibrary.Metier.Dossier;
-using Demo.DTOLibrary.Entities.Dossier;
+﻿using WS_Hotline.DomainLibrary.Metier.Dossier;
+using WS_Hotline.DTOLibrary.Entities.Dossier;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Demo.SiteWeb.Controllers
+namespace WS_Hotline.SiteWeb.Controllers
 {
     /// <summary>
     /// Controlleur de Dossier

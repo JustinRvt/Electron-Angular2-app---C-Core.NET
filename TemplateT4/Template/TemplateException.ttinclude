@@ -5,9 +5,9 @@
 		#>
 using System;
 using System.Runtime.Serialization;
-using Demo.DTOLibrary.Entities.<#= pNom #>;
+using WS_Hotline.DTOLibrary.Entities.<#= pNom #>;
 
-namespace Demo.DTOLibrary.Exception.<#= pNom #>Exception
+namespace WS_Hotline.DTOLibrary.Exception.<#= pNom #>Exception
 {
     /// <summary>
     /// Exeption sur le Type <#= pNom #>

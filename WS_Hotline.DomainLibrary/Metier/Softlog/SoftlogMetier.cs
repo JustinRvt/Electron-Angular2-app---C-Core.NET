@@ -1,13 +1,13 @@
-﻿using Demo.DataAccessLayer.Entities.Softlog;
-using Demo.DTOLibrary.Entities.Softlog;
-using Demo.DTOLibrary.Exception.SoftlogException;
+﻿using WS_Hotline.DataAccessLayer.Entities.Softlog;
+using WS_Hotline.DTOLibrary.Entities.Softlog;
+using WS_Hotline.DTOLibrary.Exception.SoftlogException;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DomainLibrary.Metier.Softlog
+namespace WS_Hotline.DomainLibrary.Metier.Softlog
 {
     /// <summary>
     /// Classe metier de Softlog

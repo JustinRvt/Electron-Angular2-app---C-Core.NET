@@ -1,4 +1,4 @@
-﻿using Demo.Framework.AccesDonnees;
+﻿using WS_Hotline.Framework.AccesDonnees;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace Demo.DTOLibrary.Helper
+namespace WS_Hotline.DTOLibrary.Helper
 {
     /// <summary>
     /// Summary description for DTOSerializerHelper.

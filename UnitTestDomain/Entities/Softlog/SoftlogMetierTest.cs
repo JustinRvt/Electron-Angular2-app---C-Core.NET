@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Demo.DTOLibrary.Entities.Softlog;
-using Demo.DTOLibrary.Exception.SoftlogException;
-using Demo.DomainLibrary.Metier.Softlog;
-using Demo.DTOLibrary.Exception.GeneriqueException;
+using WS_Hotline.DTOLibrary.Entities.Softlog;
+using WS_Hotline.DTOLibrary.Exception.SoftlogException;
+using WS_Hotline.DomainLibrary.Metier.Softlog;
+using WS_Hotline.DTOLibrary.Exception.GeneriqueException;
 
 namespace UnitTestDomain.Metier.Softlog
 {

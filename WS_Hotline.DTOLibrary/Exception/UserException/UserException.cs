@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Runtime.Serialization;
-using Demo.DTOLibrary.Entities.User;
+using WS_Hotline.DTOLibrary.Entities.User;
 
-namespace Demo.DTOLibrary.Exception.UserException
+namespace WS_Hotline.DTOLibrary.Exception.UserException
 {
     /// <summary>
     /// Exeption sur le Type User

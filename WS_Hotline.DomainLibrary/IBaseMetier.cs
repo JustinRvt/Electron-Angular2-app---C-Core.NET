@@ -1,12 +1,12 @@
-﻿using Demo.DTOLibrary.Info;
-using Demo.Framework.AccesDonnees;
+﻿using WS_Hotline.DTOLibrary.Info;
+using WS_Hotline.Framework.AccesDonnees;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DomainLibrary
+namespace WS_Hotline.DomainLibrary
 {
     /// <summary>
     /// Interface des classes métiers

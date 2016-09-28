@@ -1,8 +1,8 @@
 ﻿using System;
-using Demo.Framework.Domain.Command;
+using WS_Hotline.Framework.Domain.Command;
 using UnityConfiguration;
 
-namespace Demo.Framework.InversionOfControl
+namespace WS_Hotline.Framework.InversionOfControl
 {
     public class ExoCommandConvention : IAssemblyScannerConvention
     {

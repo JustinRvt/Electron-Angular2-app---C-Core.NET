@@ -7,12 +7,12 @@ using System.Data.Entity.Core.Mapping;
 using System.Data.Entity.Core.Metadata.Edm;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
-using Demo.Framework.Domain.Command;
+using WS_Hotline.Framework.Domain.Command;
 using System.Web.Mvc;
 using System.Data.Entity.ModelConfiguration.Configuration;
 using Microsoft.Practices.ServiceLocation;
 
-namespace Demo.Framework.AccesDonnees
+namespace WS_Hotline.Framework.AccesDonnees
 {
     public abstract class DbContextBase<T> : DbContext
        where T : DbContext

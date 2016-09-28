@@ -1,12 +1,12 @@
-﻿using Demo.DomainLibrary.Metier.User;
-using Demo.DTOLibrary.Entities.User;
+﻿using WS_Hotline.DomainLibrary.Metier.User;
+using WS_Hotline.DTOLibrary.Entities.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Demo.SiteWeb.Controllers
+namespace WS_Hotline.SiteWeb.Controllers
 {
     /// <summary>
     /// Controlleur de User

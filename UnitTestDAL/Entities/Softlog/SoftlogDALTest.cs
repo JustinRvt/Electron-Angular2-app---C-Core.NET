@@ -2,8 +2,8 @@
 using System.Text;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Demo.DataAccessLayer.Entities.Softlog;
-using Demo.DTOLibrary.Entities.Softlog;
+using WS_Hotline.DataAccessLayer.Entities.Softlog;
+using WS_Hotline.DTOLibrary.Entities.Softlog;
 
 namespace UnitTestDAL.Entities.Softlog
 {
@@ -23,7 +23,7 @@ namespace UnitTestDAL.Entities.Softlog
         public void ConfigurationSoftlogDALTest()
         {
             // yl - Creation du context
-            var lContext = new Demo.DataAccessLayer.BDD.DemoDbContext();
+            var lContext = new WS_Hotline.DataAccessLayer.BDD.DemoDbContext();
             // yl -  On oublie volontairement de mettre le context
             // yl - Creation de l'object DAL
             SoftlogDAL lService = new SoftlogDAL(lContext);

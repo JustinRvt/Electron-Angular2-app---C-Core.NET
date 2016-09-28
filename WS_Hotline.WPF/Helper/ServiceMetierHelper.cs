@@ -1,5 +1,5 @@
-﻿using Demo.DomainLibrary;
-using Demo.Framework.AccesDonnees;
+﻿using WS_Hotline.DomainLibrary;
+using WS_Hotline.Framework.AccesDonnees;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.WPF.Helper
+namespace WS_Hotline.WPF.Helper
 {
     /// <summary>
     /// Permet de facilité l'appel au metier

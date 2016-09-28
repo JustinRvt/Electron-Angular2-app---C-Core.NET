@@ -1,5 +1,5 @@
-﻿using Demo.DTOLibrary.Entities.Ecriture;
-using Demo.Framework.AccesDonnees;
+﻿using WS_Hotline.DTOLibrary.Entities.Ecriture;
+using WS_Hotline.Framework.AccesDonnees;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DataAccessLayer.Entities.Ecriture
+namespace WS_Hotline.DataAccessLayer.Entities.Ecriture
 {
     /// <summary>
     /// Classe de configuration de EcritureDTO

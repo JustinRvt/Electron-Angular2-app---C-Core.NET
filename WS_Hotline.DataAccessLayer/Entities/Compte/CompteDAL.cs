@@ -1,6 +1,6 @@
-﻿using Demo.DataAccessLayer.BDD;
-using Demo.DTOLibrary.Entities.Compte;
-using Demo.Framework.AccesDonnees;
+﻿using WS_Hotline.DataAccessLayer.BDD;
+using WS_Hotline.DTOLibrary.Entities.Compte;
+using WS_Hotline.Framework.AccesDonnees;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Data.Entity;
 using System.Linq.Expressions;
 
-namespace Demo.DataAccessLayer.Entities.Compte
+namespace WS_Hotline.DataAccessLayer.Entities.Compte
 {
     /// <summary>
     /// Classe data acess layer de Compte

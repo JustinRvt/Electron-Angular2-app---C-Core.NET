@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Demo.DTOLibrary.Entities.Ecriture;
-using Demo.DTOLibrary.Exception.EcritureException;
-using Demo.DomainLibrary.Metier.Ecriture;
-using Demo.DTOLibrary.Exception.GeneriqueException;
+using WS_Hotline.DTOLibrary.Entities.Ecriture;
+using WS_Hotline.DTOLibrary.Exception.EcritureException;
+using WS_Hotline.DomainLibrary.Metier.Ecriture;
+using WS_Hotline.DTOLibrary.Exception.GeneriqueException;
 
 namespace UnitTestDomain.Metier.Ecriture
 {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
-using Demo.Framework.Domain.Command;
+using WS_Hotline.Framework.Domain.Command;
 
-namespace Demo.DTOLibrary.Methodes
+namespace WS_Hotline.DTOLibrary.Methodes
 {
     /// <summary>
     /// Classe DTO permettant de gérer Method

@@ -1,6 +1,6 @@
-﻿<Window xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"  x:Class="Demo.WPF.MainWindow"
+﻿<Window xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"  x:Class="WS_Hotline.WPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:Ecriture="clr-namespace:Demo.WPF.View.Ecriture"
+        xmlns:Ecriture="clr-namespace:WS_Hotline.WPF.View.Ecriture"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="600" Width="800"
         DataContext="{StaticResource MainViewModel}">

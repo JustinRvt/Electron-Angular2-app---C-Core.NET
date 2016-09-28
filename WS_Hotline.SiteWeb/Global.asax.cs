@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace Demo.SiteWeb
+namespace WS_Hotline.SiteWeb
 {
     public class MvcApplication : System.Web.HttpApplication
     {

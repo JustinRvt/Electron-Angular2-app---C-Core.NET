@@ -1,13 +1,13 @@
-﻿using Demo.DataAccessLayer.Entities.Ecriture;
-using Demo.DTOLibrary.Entities.Ecriture;
-using Demo.DTOLibrary.Exception.EcritureException;
+﻿using WS_Hotline.DataAccessLayer.Entities.Ecriture;
+using WS_Hotline.DTOLibrary.Entities.Ecriture;
+using WS_Hotline.DTOLibrary.Exception.EcritureException;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DomainLibrary.Metier.Ecriture
+namespace WS_Hotline.DomainLibrary.Metier.Ecriture
 {
     /// <summary>
     /// Classe metier de Ecriture

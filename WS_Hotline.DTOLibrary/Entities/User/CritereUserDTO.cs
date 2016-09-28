@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DTOLibrary.Entities.User
+namespace WS_Hotline.DTOLibrary.Entities.User
 {
     /// <summary>
     /// Classe de critère pour UserDTO

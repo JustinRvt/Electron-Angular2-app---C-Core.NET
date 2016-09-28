@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Demo.DTOLibrary.Entities.User;
-using Demo.DTOLibrary.Exception.UserException;
-using Demo.DomainLibrary.Metier.User;
-using Demo.DTOLibrary.Exception.GeneriqueException;
+using WS_Hotline.DTOLibrary.Entities.User;
+using WS_Hotline.DTOLibrary.Exception.UserException;
+using WS_Hotline.DomainLibrary.Metier.User;
+using WS_Hotline.DTOLibrary.Exception.GeneriqueException;
 
 namespace UnitTestDomain.Metier.User
 {

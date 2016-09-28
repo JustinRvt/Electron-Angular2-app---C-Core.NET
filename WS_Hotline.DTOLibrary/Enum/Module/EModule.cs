@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DTOLibrary.Enum.Module
+namespace WS_Hotline.DTOLibrary.Enum.Module
 {
     /// <summary>
     /// Liste des module de l'appilcation

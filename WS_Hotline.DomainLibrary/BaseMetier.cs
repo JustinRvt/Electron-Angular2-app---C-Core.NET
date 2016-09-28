@@ -1,8 +1,8 @@
-﻿using Demo.DomainLibrary.Helper;
-using Demo.DTOLibrary.Info;
-using Demo.DTOLibrary.Exception;
-using Demo.Framework.AccesDonnees;
-using Demo.Framework.Domain.Query;
+﻿using WS_Hotline.DomainLibrary.Helper;
+using WS_Hotline.DTOLibrary.Info;
+using WS_Hotline.DTOLibrary.Exception;
+using WS_Hotline.Framework.AccesDonnees;
+using WS_Hotline.Framework.Domain.Query;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DomainLibrary
+namespace WS_Hotline.DomainLibrary
 {
     /// <summary>
     /// Classe modèle pour les classes métier

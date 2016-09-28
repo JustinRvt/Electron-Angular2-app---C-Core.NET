@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DTOLibrary.Business.Ressource
+namespace WS_Hotline.DTOLibrary.Business.Ressource
 {
     /// <summary>
     /// Classe de critère pour RessourceDTO

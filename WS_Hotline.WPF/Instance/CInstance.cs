@@ -1,6 +1,6 @@
-﻿using Demo.DTOLibrary.Business.Navigation;
-using Demo.DTOLibrary.Entities.Ecriture;
-using Demo.DTOLibrary.Enum.Module;
+﻿using WS_Hotline.DTOLibrary.Business.Navigation;
+using WS_Hotline.DTOLibrary.Entities.Ecriture;
+using WS_Hotline.DTOLibrary.Enum.Module;
 using GalaSoft.MvvmLight.Messaging;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.WPF.Instance
+namespace WS_Hotline.WPF.Instance
 {
     /// <summary>
     /// Instance de l'application

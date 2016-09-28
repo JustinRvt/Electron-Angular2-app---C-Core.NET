@@ -1,5 +1,5 @@
-﻿using Demo.DTOLibrary.Entities.User;
-using Demo.Framework.AccesDonnees;
+﻿using WS_Hotline.DTOLibrary.Entities.User;
+using WS_Hotline.Framework.AccesDonnees;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.DataAccessLayer.Entities.User
+namespace WS_Hotline.DataAccessLayer.Entities.User
 {
     /// <summary>
     /// Classe de configuration de UserDTO

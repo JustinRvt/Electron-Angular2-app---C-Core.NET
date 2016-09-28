@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Demo.WPF.View.Ecriture
+namespace WS_Hotline.WPF.View.Ecriture
 {
     /// <summary>
     /// Logique d'interaction pour UCRechercheEcriture.xaml

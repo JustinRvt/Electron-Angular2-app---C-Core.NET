@@ -1,9 +1,9 @@
-﻿using Demo.Framework.InversionOfControl;
+﻿using WS_Hotline.Framework.InversionOfControl;
 using GalaSoft.MvvmLight.Threading;
 using Microsoft.Practices.ServiceLocation;
 using System.Windows;
 
-namespace Demo.WPF
+namespace WS_Hotline.WPF
 {
     /// <summary>
     /// Logique d'interaction pour App.xaml
