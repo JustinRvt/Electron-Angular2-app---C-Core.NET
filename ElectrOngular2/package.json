@@ -1,0 +1,10 @@
+{
+  "name": "electr-ongular2",
+  "version": "0.0.0",
+  "description": "ElectrOngular2",
+  "main": "app.js",
+  "author": {
+    "name": "jravat",
+    "email": ""
+  }
+}
