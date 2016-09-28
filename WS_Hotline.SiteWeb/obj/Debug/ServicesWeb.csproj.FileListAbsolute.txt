@@ -1,2 +1,0 @@
-C:\Tortoise Local\WS_Hotline\WS_Hotline.SiteWeb\obj\Debug\ServicesWeb.csprojResolveAssemblyReference.cache
-C:\Tortoise Local\WS_Hotline\WS_Hotline.SiteWeb\obj\Debug\ServicesWeb.csproj.GenerateResource.Cache

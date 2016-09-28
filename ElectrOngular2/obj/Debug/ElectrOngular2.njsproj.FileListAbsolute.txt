@@ -1,0 +1,2 @@
+C:\Tortoise Local\WS_Hotline\ElectrOngular2\obj\Debug\ElectrOngular2.njsprojResolveAssemblyReference.cache
+C:\Tortoise Local\WS_Hotline\ElectrOngular2\bin\Microsoft.NodejsTools.WebRole.dll
