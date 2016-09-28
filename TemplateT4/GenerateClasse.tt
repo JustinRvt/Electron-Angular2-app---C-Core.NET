@@ -144,11 +144,11 @@
 			GenerateUniteTestMetier(lItem.Nom);
 
 			// yl - Controllers
-			lManager.StartNewFile( lItem.Nom + "Controller.cs","SiteWeb", "Controllers" );
+			lManager.StartNewFile( lItem.Nom + "Controller.cs","ServicesWeb", "Controllers" );
 			GenerateControllers(lItem.Nom);
 
 			// yl - DTO.ts
-			lManager.StartNewFile(lItem.Nom + "DTO.ts","SiteWeb",  lItem.Nom);
+			lManager.StartNewFile(lItem.Nom + "DTO.ts","ServicesWeb",  lItem.Nom);
 
 			ImportBaseDTOTS();
 			lItem.ListLiaisonSimple.ToList().ForEach(pElementLiaison =>
@@ -185,7 +185,7 @@
 
 
 			// yl - CritereDTO.ts
-			lManager.StartNewFile("Critere" + lItem.Nom + "DTO.ts","SiteWeb", lItem.Nom);
+			lManager.StartNewFile("Critere" + lItem.Nom + "DTO.ts","ServicesWeb", lItem.Nom);
 			GenerateDebutCritereDTOTS(lItem.Nom);
 			lItem.ListChamp.ToList().ForEach(pElementChamp =>
             {
