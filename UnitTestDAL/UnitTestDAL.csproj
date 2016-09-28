@@ -72,11 +72,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Demo.DataAccessLayer\DataAccessLayer.csproj">
+    <ProjectReference Include="..\WS_Hotline.DataAccessLayer\DataAccessLayer.csproj">
       <Project>{5b430d82-5023-4325-8147-11616e3beecc}</Project>
       <Name>DataAccessLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Demo.DTOLibrary\DTOLibrary.csproj">
+    <ProjectReference Include="..\WS_Hotline.DTOLibrary\DTOLibrary.csproj">
       <Project>{7cd234ca-43b2-49f1-9be4-de8f298232f4}</Project>
       <Name>DTOLibrary</Name>
     </ProjectReference>

@@ -7,8 +7,8 @@
     <ProjectGuid>{7CD234CA-43B2-49F1-9BE4-DE8F298232F4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Demo.DTOLibrary</RootNamespace>
-    <AssemblyName>Demo.DTOLibrary</AssemblyName>
+    <RootNamespace>WS_Hotline.DTOLibrary</RootNamespace>
+    <AssemblyName>WS_Hotline.DTOLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

@@ -7,8 +7,8 @@
     <ProjectGuid>{ADD921A7-7803-4419-99FF-BF39961587EC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Demo.Framework</RootNamespace>
-    <AssemblyName>Demo.Framework</AssemblyName>
+    <RootNamespace>WS_Hotline.Framework</RootNamespace>
+    <AssemblyName>WS_Hotline.Framework</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

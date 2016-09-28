@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteWeb", "Demo.SiteWeb\SiteWeb.csproj", "{E4E4F53E-C706-4130-A456-3C4F9694C346}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteWeb", "WS_Hotline.SiteWeb\SiteWeb.csproj", "{E4E4F53E-C706-4130-A456-3C4F9694C346}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{91CE60EB-1760-4B8D-BAC2-F6FF60EE204D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Métier", "02 - Métier", "{E0461B8D-18E8-4C6F-9B59-3A77B220873C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainLibrary", "Demo.DomainLibrary\DomainLibrary.csproj", "{613D58E2-2512-4E27-8EE3-F22E40B6EE0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainLibrary", "WS_Hotline.DomainLibrary\DomainLibrary.csproj", "{613D58E2-2512-4E27-8EE3-F22E40B6EE0A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestDomain", "UnitTestDomain\UnitTestDomain.csproj", "{753A6EF2-E7EA-4863-AC6A-5813651BE841}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Data Access Layer", "03 - Data Access Layer", "{AE0024E0-DE4E-4645-AD68-6C0199A88FB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "Demo.DataAccessLayer\DataAccessLayer.csproj", "{5B430D82-5023-4325-8147-11616E3BEECC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "WS_Hotline.DataAccessLayer\DataAccessLayer.csproj", "{5B430D82-5023-4325-8147-11616E3BEECC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - DTO", "04 - DTO", "{9CC9C648-3388-4D32-AB0A-08F2D9D465B1}"
 EndProject
@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestDAL", "UnitTestDAL\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "Framework\Framework.csproj", "{ADD921A7-7803-4419-99FF-BF39961587EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOLibrary", "Demo.DTOLibrary\DTOLibrary.csproj", "{7CD234CA-43B2-49F1-9BE4-DE8F298232F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOLibrary", "WS_Hotline.DTOLibrary\DTOLibrary.csproj", "{7CD234CA-43B2-49F1-9BE4-DE8F298232F4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Architecture", "00 - Architecture", "{E95DAA8C-AC4C-4969-B157-F8B6E673BF2B}"
 	ProjectSection(SolutionItems) = preProject
@@ -38,7 +38,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Architecture", "00 - A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateT4", "TemplateT4\TemplateT4.csproj", "{617F2D3F-E95D-4E51-BFD4-4D754ADA487A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "Demo.WPF\WPF.csproj", "{F367570D-02E1-48EE-AF01-057F38EBDFAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "WS_Hotline.WPF\WPF.csproj", "{F367570D-02E1-48EE-AF01-057F38EBDFAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

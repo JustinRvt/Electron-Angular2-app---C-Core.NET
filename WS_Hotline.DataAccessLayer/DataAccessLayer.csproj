@@ -7,8 +7,8 @@
     <ProjectGuid>{5B430D82-5023-4325-8147-11616E3BEECC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Demo.DataAccessLayer</RootNamespace>
-    <AssemblyName>Demo.DataAccessLayer</AssemblyName>
+    <RootNamespace>WS_Hotline.DataAccessLayer</RootNamespace>
+    <AssemblyName>WS_Hotline.DataAccessLayer</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -67,7 +67,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Demo.DTOLibrary\DTOLibrary.csproj">
+    <ProjectReference Include="..\WS_Hotline.DTOLibrary\DTOLibrary.csproj">
       <Project>{7cd234ca-43b2-49f1-9be4-de8f298232f4}</Project>
       <Name>DTOLibrary</Name>
     </ProjectReference>

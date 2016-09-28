@@ -7,8 +7,8 @@
     <ProjectGuid>{613D58E2-2512-4E27-8EE3-F22E40B6EE0A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Demo.DomainLibrary</RootNamespace>
-    <AssemblyName>Demo.DomainLibrary</AssemblyName>
+    <RootNamespace>WS_Hotline.DomainLibrary</RootNamespace>
+    <AssemblyName>WS_Hotline.DomainLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -78,11 +78,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Demo.DataAccessLayer\DataAccessLayer.csproj">
+    <ProjectReference Include="..\WS_Hotline.DataAccessLayer\DataAccessLayer.csproj">
       <Project>{5b430d82-5023-4325-8147-11616e3beecc}</Project>
       <Name>DataAccessLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Demo.DTOLibrary\DTOLibrary.csproj">
+    <ProjectReference Include="..\WS_Hotline.DTOLibrary\DTOLibrary.csproj">
       <Project>{7cd234ca-43b2-49f1-9be4-de8f298232f4}</Project>
       <Name>DTOLibrary</Name>
     </ProjectReference>
