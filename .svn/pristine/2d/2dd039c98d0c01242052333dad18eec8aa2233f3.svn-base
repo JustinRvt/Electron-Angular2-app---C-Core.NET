@@ -1,0 +1,20 @@
+"use strict";
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var BaseDTO_1 = require('../../DTO/BaseDTO');
+var EcritureDTO = (function (_super) {
+    __extends(EcritureDTO, _super);
+    function EcritureDTO(pObjectJSON) {
+        _super.call(this);
+        // yl - affectation De l'object
+        if (pObjectJSON != null) {
+            this.AffectationValeur(pObjectJSON);
+        }
+    }
+    return EcritureDTO;
+}(BaseDTO_1.BaseDTO));
+exports.EcritureDTO = EcritureDTO;
+//# sourceMappingURL=EcritureDTO.js.map

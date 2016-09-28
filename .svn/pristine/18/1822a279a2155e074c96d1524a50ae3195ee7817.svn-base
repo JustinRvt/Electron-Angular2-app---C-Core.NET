@@ -1,0 +1,39 @@
+﻿import {BaseDTO} from '../../DTO/BaseDTO';
+import {CompteDTO} from '../Compte/CompteDTO';
+import {DossierDTO} from '../Dossier/DossierDTO';
+export class EcritureDTO extends BaseDTO {
+
+	constructor (pObjectJSON?: any) {
+		super();
+		// yl - affectation De l'object
+		if (pObjectJSON != null) {
+                this.AffectationValeur(pObjectJSON);
+            }
+	}
+
+	// yl Clé primaire de la table
+	IdEcriture : number;
+
+	// yl Montant au crédit
+	Credit : any;
+
+	// yl Montant au débit
+	Debit : any;
+
+	// yl Journal
+	Journal : string;
+
+	// yl ID du compte
+	IdCompte : number;
+
+	// yl ID du dossier
+	IdDossier : number;
+		
+	// yl Liens vers Compte
+	Compte : CompteDTO;
+		
+	// yl Liens vers Dossier
+	Dossier : DossierDTO;
+
+}
+		

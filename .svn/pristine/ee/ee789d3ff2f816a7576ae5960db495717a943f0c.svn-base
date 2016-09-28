@@ -1,0 +1,42 @@
+﻿import {CritereBaseDTO} from '../../DTO/CritereBaseDTO';
+export class CritereSoftlogDTO extends CritereBaseDTO {
+
+	constructor () {
+		super();
+	}
+		
+	// yl Identifient de la table des logs
+	IdSl : number;
+
+	// yl Identifiant de l'utilisateur
+	IdUser : string;
+
+	// yl Date du log
+	SuperieurADate : string;
+
+	// yl Date du log
+	InferieurADate : string;
+
+	// yl Description
+	Descr : string;
+
+	// yl Description 2
+	Descr2 : string;
+
+	// yl Est une erreur ?
+	Iserreur : boolean;
+
+	// yl Module d'ou proviens le Log
+	Module : string;
+
+	// yl Niveau du message
+	NiveauMessage : string;
+
+	// yl Source du logiciel d'ou provient le log
+	Source : string;
+
+	// yl Version du logiciel
+	Version : string;
+
+}
+		

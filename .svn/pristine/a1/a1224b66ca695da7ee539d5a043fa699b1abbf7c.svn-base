@@ -1,0 +1,26 @@
+﻿import {BaseDTO} from '../../DTO/BaseDTO';
+import {EcritureDTO} from '../Ecriture/EcritureDTO';
+export class DossierDTO extends BaseDTO {
+
+	constructor (pObjectJSON?: any) {
+		super();
+		// yl - affectation De l'object
+		if (pObjectJSON != null) {
+                this.AffectationValeur(pObjectJSON);
+            }
+	}
+
+	// yl Clé primaire de la table
+	IdDossier : number;
+
+	// yl Code du dossier
+	Code : string;
+
+	// yl Nom du dossier
+	Nom : string;
+		
+	// yl Liens vers Ecriture
+	ListEcriture : Array<EcritureDTO>;
+
+}
+		

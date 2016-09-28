@@ -1,0 +1,27 @@
+﻿import {BaseDTO} from './BaseDTO';
+
+
+export class CritereBaseDTO extends BaseDTO {
+
+    //#region Property
+
+    //#endregion Property
+
+    //#region Constructeur
+
+    /** Contructeur
+     * author : LOUIS Yoann 08/09/2016
+     */
+    constructor() {
+        super();
+    }
+
+    //#endregion Constructeur
+
+    //#region Methode
+
+
+    //#endregion Methode
+
+}
+
