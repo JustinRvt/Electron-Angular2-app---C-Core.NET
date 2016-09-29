@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace WS_Hotline.SiteWeb.Models
+namespace WS_Hotline.ServicesWeb.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

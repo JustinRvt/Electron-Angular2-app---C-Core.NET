@@ -8,9 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using WS_Hotline.SiteWeb.Models;
+using WS_Hotline.ServicesWeb.Models;
 
-namespace WS_Hotline.SiteWeb.Controllers
+namespace WS_Hotline.ServicesWeb.Controllers
 {
     [Authorize]
     public class AccountController : Controller

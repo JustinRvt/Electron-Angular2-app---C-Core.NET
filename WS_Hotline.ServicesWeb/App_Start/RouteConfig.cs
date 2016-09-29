@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace WS_Hotline.SiteWeb
+namespace WS_Hotline.ServicesWeb
 {
     public class RouteConfig
     {

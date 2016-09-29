@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace WS_Hotline.SiteWeb.Controllers
+namespace WS_Hotline.ServicesWeb.Controllers
 {
     public class HomeController : Controller
     {

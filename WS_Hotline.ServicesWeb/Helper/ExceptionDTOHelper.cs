@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace WS_Hotline.SiteWeb.Helper
+namespace WS_Hotline.ServicesWeb.Helper
 {
     /// <summary>
     /// Helper permetant de generer des ExceptionDTO a partir d'Exception

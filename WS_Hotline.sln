@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesWeb", "WS_Hotline.ServicesWeb\ServicesWeb.csproj", "{E4E4F53E-C706-4130-A456-3C4F9694C346}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - User End", "01 - User End", "{91CE60EB-1760-4B8D-BAC2-F6FF60EE204D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - User-End", "01 - User-End", "{91CE60EB-1760-4B8D-BAC2-F6FF60EE204D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Métier", "02 - Métier", "{E0461B8D-18E8-4C6F-9B59-3A77B220873C}"
 EndProject

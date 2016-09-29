@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-namespace WS_Hotline.SiteWeb.Models
+namespace WS_Hotline.ServicesWeb.Models
 {
     public class IndexViewModel
     {

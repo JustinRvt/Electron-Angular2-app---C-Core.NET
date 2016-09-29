@@ -2,7 +2,7 @@
 using WS_Hotline.DTOLibrary.Info;
 using WS_Hotline.DTOLibrary.Methodes;
 using WS_Hotline.Framework.AccesDonnees;
-using WS_Hotline.SiteWeb.Ressources;
+using WS_Hotline.ServicesWeb.Ressources;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace WS_Hotline.SiteWeb.Controllers.Base
+namespace WS_Hotline.ServicesWeb.Controllers.Base
 {
     /// <summary>
     /// Contrôleur de base qui implémente toutes les fonctions pour accéder au metier

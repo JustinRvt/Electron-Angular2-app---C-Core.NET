@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WS_Hotline.SiteWeb.Ressources {
+namespace WS_Hotline.ServicesWeb.Ressources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace WS_Hotline.SiteWeb.Ressources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WS_Hotline.SiteWeb.Ressources.Resource", typeof(Resource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WS_Hotline.ServicesWeb.Ressources.Resource", typeof(Resource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

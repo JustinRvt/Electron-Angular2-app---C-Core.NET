@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(WS_Hotline.SiteWeb.Startup))]
-namespace WS_Hotline.SiteWeb
+[assembly: OwinStartupAttribute(typeof(WS_Hotline.ServicesWeb.Startup))]
+namespace WS_Hotline.ServicesWeb
 {
     public partial class Startup
     {
@@ -11,13 +11,5 @@ namespace WS_Hotline.SiteWeb
             ConfigureAuth(app);
         }
     }
-
-    /* Ajout du middleware StaticFiles pour les assets statiques
-    public void Configure(IApplicationBuilder app)
-    {
-        app.UseDefaultFiles();
-        app.UseStaticFiles();
-    }
-    */
 }
 

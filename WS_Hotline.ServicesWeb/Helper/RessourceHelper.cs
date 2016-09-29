@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace WS_Hotline.SiteWeb.Helper
+namespace WS_Hotline.ServicesWeb.Helper
 {
     /// <summary>
     /// Helper de gestion de resssource
@@ -19,7 +19,7 @@ namespace WS_Hotline.SiteWeb.Helper
         /// Object permettant de recuperer les resources
         /// </summary>
         /// <remarks>LOUIS Yoann 19/02/2016</remarks>
-        private static System.Resources.ResourceManager _ResourceManager = new global::System.Resources.ResourceManager("WS_Hotline.SiteWeb.Ressources.Resource", typeof(SiteWeb.Ressources.Resource).Assembly);
+        private static System.Resources.ResourceManager _ResourceManager = new global::System.Resources.ResourceManager("WS_Hotline.ServicesWeb.Ressources.Resource", typeof(ServicesWeb.Ressources.Resource).Assembly);
 
         #endregion
 
