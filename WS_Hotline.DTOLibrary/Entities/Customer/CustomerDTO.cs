@@ -16,15 +16,15 @@ namespace WS_Hotline.DTOLibrary.Entities.User
     /// <remark>[jravat] - [29092016] - Généré par snippet v1.0</remark>
     [DataContract]
     [Table("V_HOTLINE_CONTACT_ACTIF")]
-    public class PhoneDTO : BaseDTO
+    public class CustomerDTO : BaseDTO
     {
         #region property
 
         private string _CustomerPhone;
         /// <summary>
-        /// Commentaire
+        /// Téléphone client actif
         /// </summary>
-        /// <remarks>[Login] - [DateDuJour] - Généré par snippet v1.0</remarks>
+        /// <remark>[jravat] - [29092016] - Généré par snippet v1.0</remark>
         [DataMember]
         [Column("MainInvoicingContact_Phone")]
         [Required(ErrorMessage = "Customer Phone error")]
@@ -44,9 +44,9 @@ namespace WS_Hotline.DTOLibrary.Entities.User
 
         private string _CustomerName;
         /// <summary>
-        /// Commentaire
+        /// Nom de famille client actif
         /// </summary>
-        /// <remarks>[Login] - [DateDuJour] - Généré par snippet v1.0</remarks>
+        /// <remark>[jravat] - [29092016] - Généré par snippet v1.0</remark>
         [DataMember]
         [Column("MainInvoicingContact_Name")]
         [Required(ErrorMessage = "Customer Last Name Error")]
@@ -67,9 +67,9 @@ namespace WS_Hotline.DTOLibrary.Entities.User
 
         private string _CustomerFirstName;
         /// <summary>
-        /// Commentaire
+        /// Prénom client actif
         /// </summary>
-        /// <remarks>[Login] - [DateDuJour] - Généré par snippet v1.0</remarks>
+        /// <remark>[jravat] - [29092016] - Généré par snippet v1.0</remark>
         [DataMember]
         [Column("MainInvoicingContact_FirstName")]
         [Required(ErrorMessage = "CustomeFirst Name Error")]
