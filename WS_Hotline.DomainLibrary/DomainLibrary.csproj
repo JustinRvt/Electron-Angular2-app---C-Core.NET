@@ -60,9 +60,6 @@
     <Compile Include="BaseMetier.cs" />
     <Compile Include="Helper\CLogger.cs" />
     <Compile Include="IBaseMetier.cs" />
-    <Compile Include="Metier\Compte\CompteMetier.cs" />
-    <Compile Include="Metier\Dossier\DossierMetier.cs" />
-    <Compile Include="Metier\Ecriture\EcritureMetier.cs" />
     <Compile Include="Metier\Softlog\SoftlogMetier.cs" />
     <Compile Include="Metier\User\UserMetier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

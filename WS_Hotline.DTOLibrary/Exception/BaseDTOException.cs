@@ -53,7 +53,7 @@ namespace WS_Hotline.DTOLibrary.Exception
         { }
 
         /// <summary>
-        /// COnstructeur pour serialisation
+        /// Constructeur pour serialisation
         /// </summary>
         /// <param name="pInfo">Info</param>
         /// <param name="pContext">Context</param>

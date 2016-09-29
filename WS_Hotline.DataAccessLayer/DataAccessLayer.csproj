@@ -50,12 +50,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BDD\DemoDbContext.cs" />
-    <Compile Include="Entities\Compte\CompteConfiguration.cs" />
-    <Compile Include="Entities\Compte\CompteDAL.cs" />
-    <Compile Include="Entities\Dossier\DossierConfiguration.cs" />
-    <Compile Include="Entities\Dossier\DossierDAL.cs" />
-    <Compile Include="Entities\Ecriture\EcritureConfiguration.cs" />
-    <Compile Include="Entities\Ecriture\EcritureDAL.cs" />
     <Compile Include="Entities\Softlog\SoftlogConfiguration.cs" />
     <Compile Include="Entities\Softlog\SoftlogDAL.cs" />
     <Compile Include="Entities\User\UserConfiguration.cs" />

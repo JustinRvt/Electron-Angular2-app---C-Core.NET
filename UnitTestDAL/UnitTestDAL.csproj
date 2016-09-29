@@ -60,9 +60,6 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Entities\Compte\CompteDALTest.cs" />
-    <Compile Include="Entities\Dossier\DossierDALTest.cs" />
-    <Compile Include="Entities\Ecriture\EcritureDALTest.cs" />
     <Compile Include="Entities\Softlog\SoftlogDALTest.cs" />
     <Compile Include="Entities\User\UserDALTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

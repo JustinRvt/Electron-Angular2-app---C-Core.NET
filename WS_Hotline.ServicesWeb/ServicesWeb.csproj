@@ -166,9 +166,6 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\Base\BaseController.cs" />
-    <Compile Include="Controllers\CompteController.cs" />
-    <Compile Include="Controllers\DossierController.cs" />
-    <Compile Include="Controllers\EcritureController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SoftlogController.cs" />
     <Compile Include="Controllers\UserController.cs" />

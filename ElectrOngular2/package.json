@@ -186,8 +186,5 @@
     "systemjs": "0.19.38",
     "zone.js": "0.6.23"
   },
-  "-vs-binding": {
-    "AfterBuild": [ "start.livesync.desktop.windows" ],
-    "Clean": [ "clean.js" ]
-  }
+  "-vs-binding":{"AfterBuild":["start.livesync.desktop.windows"]}
 }
