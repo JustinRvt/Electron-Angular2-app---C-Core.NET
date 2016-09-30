@@ -1,0 +1,27 @@
+﻿import {CritereBaseDTO} from '../../DTO/CritereBaseDTO';
+export class CritereUserDTO extends CritereBaseDTO {
+
+	constructor () {
+		super();
+	}
+		
+	// yl id auto
+	IdUser : number;
+
+	// yl true si l'utilisateur est un admin
+	IsAdmin : boolean;
+
+	// yl login de l'utilisateur
+	Login : string;
+
+	// yl adresse mail de l'utilisateur
+	Mail : string;
+
+	// yl mot de passe crypté MD5
+	Mdp : string;
+
+	// yl nom de l'utilisateur
+	Nom : string;
+
+}
+		

@@ -1,0 +1,22 @@
+﻿import {CritereBaseDTO} from '../../DTO/CritereBaseDTO';
+export class CritereDossierDTO extends CritereBaseDTO {
+
+	constructor () {
+		super();
+	}
+		
+	// yl Clé primaire de la table
+	IdDossier : number;
+
+	// yl Code du dossier
+	Code : string;
+
+	// yl Nom du dossier
+	Nom : string;
+
+	// yl Prendre ListEcriture
+	TakeListEcriture : boolean;
+
+		
+}
+		

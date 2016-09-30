@@ -1,0 +1,126 @@
+﻿import { NgGrid, NgGridItem } from 'angular2-grid';
+import { Component, Input, ViewChild} from 'angular2/core';
+
+
+
+import {EcritureDTO} from '../../DTO/Ecriture/EcritureDTO';
+import {CritereEcritureDTO} from '../../DTO/Ecriture/CritereEcritureDTO';
+import {HelperAjax} from '../../Helper/HelperAjax';
+
+//import { DetailHeroViewModel } from "./DetailHeroViewModel";
+
+
+@Component({
+    //gb - Indique le composant sur lequel binder le model
+    selector: 'my-ListEcriture',
+    //gb - Indique le template du composant
+    templateUrl: "app/Template/Ecriture/ListEcritureTemplate.html",
+    //gb - Création du style CSS
+    styles: [`
+          .selected {
+            background-color: #CFD8DC !important;
+            color: white;
+          }
+          .ListEcriture {
+            margin: 0 0 2em 0;
+            list-style-type: none;
+            padding: 0;
+            width: 15em;
+          }
+          .ListEcriture li {
+            cursor: pointer;
+            position: relative;
+            left: 0;
+            background-color: #EEE;
+            margin: .5em;
+            padding: .3em 0;
+            height: 1.6em;
+            border-radius: 4px;
+          }
+          .ListEcriture li.selected:hover {
+            background-color: #BBD8DC !important;
+            color: white;
+          }
+          .ListEcriture li:hover {
+            color: #607D8B;
+            background-color: #DDD;
+            left: .1em;
+          }
+          .ListEcriture .text {
+            position: relative;
+            top: -3px;
+          }
+          .ListEcriture .badge {
+            display: inline-block;
+            font-size: small;
+            color: white;
+            padding: 0.8em 0.7em 0 0.7em;
+            background-color: #607D8B;
+            line-height: 1em;
+            position: relative;
+            left: -1px;
+            top: -4px;
+            height: 1.8em;
+            margin-right: .8em;
+            border-radius: 4px 0 0 4px;
+          }
+
+        .grid {
+            width: 600px;
+            height: 450px;
+        }
+
+    `],
+    //gb - Indique les ViewModel liés
+    //directives: [NgGrid]
+})
+
+    /** ViewModel genrant l'affichage de la liste des ecritures
+    * author : LOUIS Yoann 08/09/2016
+    */
+    export class ListEcritureViewModel {
+
+        //#region Property
+
+        //YL - Déclaration des variables
+        Title = "List des lignes d'écritures";
+        ListEcriture: Array<EcritureDTO> = new Array<EcritureDTO>();
+
+        ColumnDefs: Object[];
+       // SelectedEcriture: Demo.DTO.Ecriture.EcritureDTO;
+
+        //#endregion
+
+        //#region Constructeur
+
+        /** Contructeur
+         * author : LOUIS Yoann 08/09/2016
+         */
+        constructor() {
+            this.ColumnDefs = [
+                { headerName: "ID", field: "IdEcriture" },
+                { headerName: "Journal", field: "Journal" },
+                { headerName: "Credit", field: "Credit" },
+                { headerName: "Debit", field: "Debit" }
+            ];
+            
+        }
+
+        //#endregion Constructeur
+
+        //#region Methode
+
+        /** PErmet de charger les ecriture
+         * author : LOUIS Yoann 08/09/2016
+         */
+        public GetListEcriture(pListEcriture: Array<EcritureDTO>) {
+            // yl - Afcfetation des ligne d'ecriture
+            this.ListEcriture = pListEcriture;
+        }
+
+        //#endregion Methode
+
+
+
+    }
+

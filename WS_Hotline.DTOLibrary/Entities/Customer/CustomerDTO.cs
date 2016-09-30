@@ -98,6 +98,25 @@ namespace WS_Hotline.DTOLibrary.Entities.Customer
             }
         }
 
+
+    private int _IdLcp;
+    /// <summary>
+    /// Trying to resolve EntityType issue
+    /// </summary>
+    /// <remarks>[jravat] - [30092016] - Généré par snippet v1.0</remarks>
+    [DataMember]
+    [Column("ID_LCP")]
+    [Required(ErrorMessage = "IdLcp error")]
+    [Key]
+    public int IdLcp
+    {
+      get { return _IdLcp; }
+      set
+      {
+        _IdLcp = value;
+        ValidateProperty(value, new ValidationContext(this, null, null) { MemberName = "IdLcp" });
+      }
+    }
         #endregion
 
         #region Liaison

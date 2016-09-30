@@ -1,0 +1,35 @@
+﻿import {CritereBaseDTO} from '../../DTO/CritereBaseDTO';
+export class CritereEcritureDTO extends CritereBaseDTO {
+
+	constructor () {
+		super();
+	}
+		
+	// yl Clé primaire de la table
+	IdEcriture : number;
+
+	// yl Montant au crédit
+    Credit: number;
+
+	// yl Montant au débit
+    Debit: number;
+
+	// yl Journal
+	Journal : string;
+
+	// yl ID du compte
+	IdCompte : number;
+
+	// yl ID du dossier
+	IdDossier : number;
+
+	// yl Prendre Compte
+	TakeCompte : boolean;
+
+		
+	// yl Prendre Dossier
+	TakeDossier : boolean;
+
+		
+}
+		

@@ -49,7 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BDD\DemoDbContext.cs" />
+    <Compile Include="BDD\HotlineDbContext.cs" />
     <Compile Include="Entities\Customer\CustomerConfiguration.cs" />
     <Compile Include="Entities\Customer\CustomerDAL.cs" />
     <Compile Include="Entities\Softlog\SoftlogConfiguration.cs" />

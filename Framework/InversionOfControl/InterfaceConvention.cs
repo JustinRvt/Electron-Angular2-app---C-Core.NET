@@ -16,7 +16,7 @@ namespace WS_Hotline.Framework.InversionOfControl
         /// <param name="pRegistry"></param>
         public void Process(Type pType, IUnityRegistry pRegistry)
         {
-            foreach (var lInterface in pType.GetInterfaces().Where(pX => pX.Namespace != null && pX.Namespace.StartsWith("Demo")))
+            foreach (var lInterface in pType.GetInterfaces().Where(pX => pX.Namespace != null && pX.Namespace.StartsWith("WS_Hotline")))
             {
                 pRegistry.Register(lInterface, pType).AsSingleton();
             }

@@ -34,11 +34,11 @@
 	/* ****************************************************************************************************
 	Pour generer les classe automatiquement :
 	- modifier le fichier FileObject.xml Avec l'application BddXMLObjectGenerator
-	- Ecrasser le fichier FileObject.xml
-	- Ctrl + s Sur se fichier
+	- Ecraser le fichier FileObject.xml
+	- Ctrl + s Sur ce fichier
 
 	/!\ Attention /!\
-	Si les fichier existe il ne serront pas ecrasser
+	Si les fichiers existent ils ne seront pas ecrasés
 	********************************************************************************************************/
 
 

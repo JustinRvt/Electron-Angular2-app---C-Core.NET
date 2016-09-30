@@ -1,0 +1,60 @@
+﻿
+/** Class permet d'aider le develeoppeur a faire un appel ajax
+ * author : LOUIS Yoann 08/09/2016 reprise de SCA mais bmodifier pour fonctionner avec angular
+ */
+export class HelperAjax {
+
+    //#region constructor
+
+    /** Constructor
+    author : LOUIS Yoann 26/10/2015
+     **/
+    constructor() {
+    }
+
+    //#endregion constructor
+
+    //#region Methode
+
+
+    /** Appel Ajax Avec retour
+    param : {pControlleur : string} Nom du controleur ciblé.
+    param : {pMethode : string} Methode du controleur ciblé.
+    param : {pData : any} Parametre de l'appel.
+    param : {pSuccess : any} Retour en cas de success. => success: (pReturn: any) => {
+                pSuccess(pReturn);
+            }
+    param : {pError? : any} Retour en cas d'erreur. => erreur: (pReturn: any) => {
+                pError(pReturn);
+            }
+    author : LOUIS Yoann 26/10/2015*/
+    public static AjaxJson(pControlleur: string, pMethode: string, pData: any, pSuccess?: any, pError?: any) {
+        //tbh - Option pour la requete ajax
+        var lSetting: JQueryAjaxSettings = {
+            type: 'post',
+            dataType: 'json',
+            url: "/" + pControlleur + "/" + pMethode,
+            data: pData,
+            //tbh - En cas de succès
+            success: (pReturn: any) => {
+                if (pSuccess != null) {
+                    //tbh - Callback de succès
+                    pSuccess(pReturn);
+                }
+            },
+            //tbh - En cas d'erreur
+            error: (pException: any) => {
+                if (pError != null) {
+                    //tbh -  Callback d'erreur
+                    pError();
+                }
+            }
+        };
+
+        //gb - Création de la requête de récupération des textes
+        $.ajax(lSetting);
+    }
+
+    //#endregion Methode
+}
+

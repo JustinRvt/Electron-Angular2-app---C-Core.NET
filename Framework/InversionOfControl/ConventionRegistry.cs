@@ -14,7 +14,7 @@ namespace WS_Hotline.Framework.InversionOfControl
             this.Scan(
                 pScan =>
                 {
-                    pScan.AssembliesInBaseDirectory(pAssembly => pAssembly.FullName.StartsWith("Demo"));
+                    pScan.AssembliesInBaseDirectory(pAssembly => pAssembly.FullName.StartsWith("WS_Hotline"));
                     pScan.InternalTypes();
                     pScan.With<MultipleImplementationConvention>()
                            .TypesImplementing( typeof(IEntityConfiguration))

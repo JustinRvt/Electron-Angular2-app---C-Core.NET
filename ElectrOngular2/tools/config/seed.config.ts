@@ -289,7 +289,7 @@ export class SeedConfig {
    * The default value is false. Override with the '--scss' flag.
    * @type {boolean}
    */
-  ENABLE_SCSS = argv['scss'] || true;
+  ENABLE_SCSS = argv['scss'] || false;
 
   /**
    * The list of NPM dependcies to be injected in the `index.html`.
@@ -390,7 +390,7 @@ export class SeedConfig {
       join('node_modules', '@angular', '*', 'package.json')
     ],
     paths: {
-      [join(this.TMP_DIR, 'app', '*')]: `${this.TMP_DIR}/app/*`,
+      [`${this.TMP_DIR}/*`]: `${this.TMP_DIR}/*`,
       'node_modules/*': 'node_modules/*',
       '*': 'node_modules/*'
     },
