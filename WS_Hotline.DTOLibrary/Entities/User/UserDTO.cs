@@ -1,4 +1,4 @@
-﻿using Demo.Framework.Domain.Command;
+﻿using WS_Hotline.Framework.Domain.Command;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,9 +7,8 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
-using WS_Hotline.Framework.Domain.Command;
 
-namespace Demo.DTOLibrary.Entities.User
+namespace WS_Hotline.DTOLibrary.Entities.User
 {
 
     /// <summary>

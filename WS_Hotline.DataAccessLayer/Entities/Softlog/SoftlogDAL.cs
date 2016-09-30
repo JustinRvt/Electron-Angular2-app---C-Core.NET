@@ -15,7 +15,7 @@ namespace WS_Hotline.DataAccessLayer.Entities.Softlog
     /// Classe data acess layer de Softlog
     /// </summary>
     /// <remarks>ylouis - 11/07/2016 - Généré par Template T4 v1.0</remarks>
-    public class SoftlogDAL : Repository<SoftlogDTO, DemoDbContext>
+    public class SoftlogDAL : Repository<SoftlogDTO, HotlineDbContext>
     {
         #region CSTR
 
@@ -24,7 +24,7 @@ namespace WS_Hotline.DataAccessLayer.Entities.Softlog
         /// </summary>
         /// <remarks>ylouis - 11/07/2016 - Création</remarks>
         public SoftlogDAL()
-            : base(new DemoDbContext())
+            : base(new HotlineDbContext())
         {
             // yl - Gestion des Lien vers les autres tables
             this.GestionInclude();
@@ -35,7 +35,7 @@ namespace WS_Hotline.DataAccessLayer.Entities.Softlog
         /// </summary>
         /// <param name="pContext">Context de base de données</param>
         /// <remarks>ylouis - 11/07/2016 - Création</remarks>
-        public SoftlogDAL(DemoDbContext pContext)
+        public SoftlogDAL(HotlineDbContext pContext)
             : base(pContext)
         {
             // yl - Gestion des Lien vers les autres tables

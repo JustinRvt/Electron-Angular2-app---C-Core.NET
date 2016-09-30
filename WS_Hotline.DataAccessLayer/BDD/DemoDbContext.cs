@@ -11,7 +11,7 @@ namespace WS_Hotline.DataAccessLayer.BDD
     /// Classe correspondant au context de base de données
     /// </summary>
     /// <remarks>ylouis 08/07/2016 - Création</remarks>
-    public class DemoDbContext : DbContextBase<DemoDbContext>
+    public class HotlineDbContext : DbContextBase<HotlineDbContext>
     {
         #region CSTR
 
@@ -19,8 +19,8 @@ namespace WS_Hotline.DataAccessLayer.BDD
         /// Definie BDDEMO comme contexte de base de données
         /// </summary>
         /// <remarks>ylouis 08/07/2016 - Création</remarks>
-        public DemoDbContext()
-            : base("BDDEMO")
+        public HotlineDbContext()
+            : base("BDHotline")
         {
 
         }

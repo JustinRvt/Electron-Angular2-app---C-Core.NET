@@ -4,25 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Data.Entity;
 using System.Threading.Tasks;
-using WS_Hotline.DTOLibrary.Entities.User;
+using WS_Hotline.DTOLibrary.Entities.Customer;
 using WS_Hotline.Framework.AccesDonnees;
+using WS_Hotline.DataAccessLayer.BDD;
 
-namespace WS_Hotline.DataAccessLayer.Entities.Customer
+namespace UnitTestDAL.Entities.Customer
 {
     /// <summary>
-        /// Classe data acess layer de Name
-        /// </summary>
-        /// <remarks>[Login] - [DateDuJour] - Généré par snippet v1.0</remarks>
-    public class CustomerDAL : Repository<CustomerDTO, EformDbContext>
+    /// Classe data acess layer de Name
+    /// </summary>
+    /// <remark>[jravat] - [30092016] - Généré par snippet v1.0</remark>
+    public class CustomerDAL : Repository<CustomerDTO, HotlineDbContext>
     {
         #region CSTR
 
         /// <summary>
         /// Constructeur vide
         /// </summary>
-        /// <remarks>[Login] [DateDuJour] - Création</remarks>
+        /// <remark>[jravat] - [30092016] - Généré par snippet v1.0</remark>
         public CustomerDAL()
-            : base(new EformDbContext())
+            : base(new HotlineDbContext())
         {
             // [Initiale] - Gestion des liens vers les autres tables
             this.GestionInclude();
@@ -32,8 +33,8 @@ namespace WS_Hotline.DataAccessLayer.Entities.Customer
         /// Constructeur avec paramètre
         /// </summary>
         /// <param name="pContext">Context de base de données</param>
-        /// <remarks>[Login] [DateDuJour] - Création</remarks>
-        public CustomerDAL(EformDbContext pContext)
+        /// <remark>[jravat] - [30092016] - Généré par snippet v1.0</remark>
+        public CustomerDAL(HotlineDbContext pContext)
             : base(pContext)
         {
             // [Initiale] - Gestion des liens vers les autres tables
@@ -47,7 +48,7 @@ namespace WS_Hotline.DataAccessLayer.Entities.Customer
         /// <summary>
         /// Gestion des liens vers les autres tables
         /// </summary>
-        /// <remarks>[Login] [DateDuJour] - Création</remarks>
+        /// <remark>[jravat] - [30092016] - Généré par snippet v1.0</remark>
         private void GestionInclude()
         {
             // Exemple d'include
@@ -59,7 +60,7 @@ namespace WS_Hotline.DataAccessLayer.Entities.Customer
         /// </summary>
         /// <param name="pSource">Source</param>
         /// <returns>Include</returns>
-        /// <remarks>[Login] [DateDuJour] - Création</remarks>
+       /// <remark>[jravat] - [30092016] - Généré par snippet v1.0</remark>
         private IQueryable<DossierSousCatDTO> IncludeDossiers(IQueryable<DossierSousCatDTO> pSource, Expression<Func<DossierSousCatDTO, object>> arg2, Framework.Domain.Query.SearchCriteria<DossierSousCatDTO> arg3)
         {
             // [Initiale] - Retourne liens

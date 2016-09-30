@@ -48,8 +48,8 @@
     <Compile Include="Business\Ressource\CritereRessourceDTO.cs" />
     <Compile Include="Business\Ressource\RessourceDTO.cs" />
     <Compile Include="CritereBaseDTO.cs" />
-    <Compile Include="Entities\Phone\CriterePhoneDTO.cs" />
-    <Compile Include="Entities\Phone\PhoneDTO.cs" />
+    <Compile Include="Entities\Customer\CritereCustomerDTO.cs" />
+    <Compile Include="Entities\Customer\CustomerDTO.cs" />
     <Compile Include="Entities\Softlog\CritereSoftlogDTO.cs" />
     <Compile Include="Entities\Softlog\SoftlogDTO.cs" />
     <Compile Include="Entities\User\CritereUserDTO.cs" />

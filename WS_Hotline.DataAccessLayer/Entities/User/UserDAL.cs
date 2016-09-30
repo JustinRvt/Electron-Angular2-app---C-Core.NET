@@ -15,7 +15,7 @@ namespace WS_Hotline.DataAccessLayer.Entities.User
     /// Classe data acess layer de User
     /// </summary>
     /// <remarks>ylouis - 11/07/2016 - Généré par Template T4 v1.0</remarks>
-    public class UserDAL : Repository<UserDTO, DemoDbContext>
+    public class UserDAL : Repository<UserDTO, HotlineDbContext>
     {
         #region CSTR
 
@@ -24,7 +24,7 @@ namespace WS_Hotline.DataAccessLayer.Entities.User
         /// </summary>
         /// <remarks>ylouis - 11/07/2016 - Création</remarks>
         public UserDAL()
-            : base(new DemoDbContext())
+            : base(new HotlineDbContext())
         {
             // yl - Gestion des Lien vers les autres tables
             this.GestionInclude();
@@ -35,7 +35,7 @@ namespace WS_Hotline.DataAccessLayer.Entities.User
         /// </summary>
         /// <param name="pContext">Context de base de données</param>
         /// <remarks>ylouis - 11/07/2016 - Création</remarks>
-        public UserDAL(DemoDbContext pContext)
+        public UserDAL(HotlineDbContext pContext)
             : base(pContext)
         {
             // yl - Gestion des Lien vers les autres tables

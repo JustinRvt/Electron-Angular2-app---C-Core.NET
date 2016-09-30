@@ -50,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BDD\DemoDbContext.cs" />
+    <Compile Include="Entities\Customer\CustomerConfiguration.cs" />
+    <Compile Include="Entities\Customer\CustomerDAL.cs" />
     <Compile Include="Entities\Softlog\SoftlogConfiguration.cs" />
     <Compile Include="Entities\Softlog\SoftlogDAL.cs" />
     <Compile Include="Entities\User\UserConfiguration.cs" />

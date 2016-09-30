@@ -56,7 +56,7 @@
     // yl - Dezerialisation 
 	ContextDTO lObject =  DTOSerializerHelper.DeserializeXml<ContextDTO>(lXml);
     // yl - Affectation du Context
-	lObject.NomContext="DemoDbContext";
+	lObject.NomContext="HotlineDbContext";
 
 
 	// ****************************** Ne pas Modifier!!!!! ***********************************************

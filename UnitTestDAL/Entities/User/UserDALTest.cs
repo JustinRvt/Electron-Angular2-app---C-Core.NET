@@ -23,7 +23,7 @@ namespace UnitTestDAL.Entities.User
         public void ConfigurationUserDALTest()
         {
             // yl - Creation du context
-            var lContext = new WS_Hotline.DataAccessLayer.BDD.DemoDbContext();
+            var lContext = new WS_Hotline.DataAccessLayer.BDD.HotlineDbContext();
             // yl -  On oublie volontairement de mettre le context
             // yl - Creation de l'object DAL
             UserDAL lService = new UserDAL(lContext);

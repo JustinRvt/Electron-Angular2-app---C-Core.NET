@@ -5,33 +5,32 @@ using System.Linq.Expressions;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
-using WS_Hotline.DTOLibrary.Entities.User;
 
-namespace WS_Hotline.DTOLibrary.Entities.Phone
+namespace WS_Hotline.DTOLibrary.Entities.Customer
 {
     /// <summary>
-    /// Classe de critère pour CustomerDTO
+    /// Classe de critère pour NomDTO
     /// </summary>
-    /// <remark>[jravat] - [29092016] - Généré par snippet v1.0</remark>
+    /// <remark>[jravat] - [30092016] - Généré par snippet v1.0</remark>
     public class CritereCustomerDTO : CritereBaseDTO<CustomerDTO>
     {
         #region property
 
-        private string _CustomerName;
+        private string _CustomerLastName;
         /// <summary>
-        /// Recherche par nom
+        /// Filtre sur MonElementFiltre
         /// </summary>
-        /// <remark>[jravat] - [29092016] - Généré par snippet v1.0</remark>
+        /// <remark>[jravat] - [30092016] - Généré par snippet v1.0</remark>
         [DataMember]
-        public string CustomerName
+        public string CustomerLastName
         {
-            get { return _CustomerName; }
+            get { return _CustomerLastName; }
             set
             {
-                _CustomerName = value;
+                _CustomerLastName = value;
                 // [Initiale] - Mise en place du filtre
-                if (_CustomerName != null)
-                    this.Filters["Nom"] = p => Expression;
+                if (_CustomerLastName != null)
+                    this.Filters["Nom"] = p => p.CustomerLastName.StartsWith(value);
             }
         }
         #endregion
