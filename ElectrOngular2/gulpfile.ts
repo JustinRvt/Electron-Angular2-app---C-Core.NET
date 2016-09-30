@@ -16,6 +16,7 @@ gulp.task('build.dev', (done: any) =>
   runSequence(//'clean.dev',
 //              'tslint',
 //              'css-lint',
+              //'build.pug.dev',
               'build.assets.dev',
               'build.html_css',
               'build.js.dev',

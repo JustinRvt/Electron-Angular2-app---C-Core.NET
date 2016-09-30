@@ -4,6 +4,7 @@ console.log(`Electron launching with NODE_ENV: ${process.env.NODE_ENV}`);
 // electron
 const electron = require('electron');
 const app = electron.app;
+const path = require('path');
 const Menu: any = electron.Menu;
 const shell: any = electron.shell;
 // const {crashReporter} = require('electron');
@@ -11,6 +12,7 @@ const BrowserWindow = electron.BrowserWindow;
 let mainWindow: any = null;
 let template: any;
 let menu: any;
+
 
 // app
 import { AppConfig } from './app/frameworks/sample/services/app-config';

@@ -1,0 +1,7 @@
+actionbar.action-bar(title='Angular 2 Seed Advanced')
+  actionitem(nsrouterlink='/about', ios.position='right', android.position='popup')
+    button.action-btn([text]="'ABOUT' | translate")
+stacklayout.container
+  lang-switcher
+  scrollview
+    page-router-outlet
