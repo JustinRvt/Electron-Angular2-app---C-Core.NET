@@ -28,7 +28,7 @@ namespace WS_Hotline.DTOLibrary.Entities.Customer
         [DataMember]
         [Column("MainInvoicingContact_Phone")]
         [Required(ErrorMessage = "CustomerPhone error")]
-        [MaxLength(20)]
+        [MaxLength(40)]
         public string CustomerPhone
         {
             get { return _CustomerPhone; }
@@ -47,7 +47,7 @@ namespace WS_Hotline.DTOLibrary.Entities.Customer
         [DataMember]
         [Column("MainInvoicingContact_CellPhone")]
         [Required(ErrorMessage = "CustomerPhone error")]
-        [MaxLength(20)]
+        [MaxLength(40)]
         public string CustomerCellPhone
         {
             get { return _CustomerCellPhone; }
@@ -67,7 +67,7 @@ namespace WS_Hotline.DTOLibrary.Entities.Customer
         [DataMember]
         [Column("MainInvoicingContact_Name")]
         [Required(ErrorMessage = "Variable error")]
-        [MaxLength(60)]
+        [MaxLength(120)]
         public string CustomerLastName
         {
             get { return _CustomerLastName; }
@@ -87,7 +87,7 @@ namespace WS_Hotline.DTOLibrary.Entities.Customer
         [DataMember]
         [Column("MainInvoicingContact_FirstName")]
         [Required(ErrorMessage = "CustomerFirstName error")]
-        [MaxLength(60)]
+        [MaxLength(120)]
         public string CustomerFirstName
         {
             get { return _CustomerFirstName; }
