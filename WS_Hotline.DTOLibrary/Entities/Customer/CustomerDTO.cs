@@ -83,10 +83,11 @@ namespace WS_Hotline.DTOLibrary.Entities.Customer
         /// <summary>
         /// Customer First Name
         /// </summary>
-        /// <remarks>[Login] - [DateDuJour] - Généré par snippet v1.0</remarks>
+        /// <remark>[jravat] - [30092016] - Généré par snippet v1.0</remark>
         [DataMember]
         [Column("MainInvoicingContact_FirstName")]
         [Required(ErrorMessage = "CustomerFirstName error")]
+        [MaxLength(60)]
         public string CustomerFirstName
         {
             get { return _CustomerFirstName; }
