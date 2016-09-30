@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnitTestDAL.Entities.Customer;
 using WS_Hotline.DTOLibrary.Entities.Customer;
-//using WS_Hotline.DTOLibrary.Exception.CustomerException;
+using WS_Hotline.DTOLibrary.Exception.CustomerException;
 
 namespace WS_Hotline.DomainLibrary.Metier.Customer
 {

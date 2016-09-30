@@ -56,6 +56,7 @@
     <Compile Include="Entities\User\UserDTO.cs" />
     <Compile Include="Enum\Module\EModule.cs" />
     <Compile Include="Exception\BaseDTOException.cs" />
+    <Compile Include="Exception\CustomerException\CustomerException.cs" />
     <Compile Include="Exception\GeneriqueException\TypeException.cs" />
     <Compile Include="Exception\SoftlogException\SoftlogException.cs" />
     <Compile Include="Exception\UserException\UserException.cs" />
